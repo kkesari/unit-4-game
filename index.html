@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CrystalsCollector Game</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+  <!-- Title -->
+  <div id="row1" class="row">
+    <div class="col-lg-4">
+      <h1 class="text-left">
+        <strong>CrystalsCollector!</strong>
+      </h1>
+    </div>
+  </div>
+  <!-- Overall Bootstrap Grid -->
+  <div class="containter">
+    <div id="row2" class="row">
+
+      <div class="col-lg-8">
+
+        <!-- Description of the game -->
+        <h4 class="text-left">
+          <strong>You will be given a random number at the start of the game.
+            <br>
+            <br>
+
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total
+            score.
+            <br>
+            <br>
+            You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.
+            <br>
+            <br>
+            The value of each crystal is hidden from you until you click on it.
+            <br>
+            <br>
+            Each time when the game starts, the game will change the values of each crystal.
+            <br>
+            <br>
+            <br>
+          </strong>
+          </h5>
+      </div>
+    </div>
+
+    <!-- Random generated number between 19 to 120  -->
+    <div id="row3" class="row">
+      <div id="col1" class="col-lg-5">
+        <div id="card1" class="card" style="width: 25rem; height:12rem;">
+          <div class="card-body">
+            <div>
+                <!-- <h3>Score: </h3> -->
+                <span id="randomNumber"></span>
+              </div>  
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's 
+                  content.</p> -->
+          </div>
+        </div>
+      </div>
+      <!-- Wins and Losses score count  -->
+      <div id="col2" class="col-lg-3">
+        <div id="card2" class="card" style="width: 18rem; height:12rem;">
+          <div class="card-body">
+            <div id="win-lose"></div>
+            <div id="win-loss-cnt">
+
+              <div>
+                <h5>Wins: </h5>
+                <span id="wins"></span>
+              </div>
+
+              <div>
+                <h5>Losses: </h5>
+                <span id="losses"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+      <!-- Buttons with crystals images  -->
+      <div id="row4" class="row">
+        <div id="col3" class="col-lg-2">
+          <button class="btn theme-button BlueCalcite">
+            <div class="img1">
+              <img src="./assets/images/BlueCalcite.JPG" width="150" height="200" alt="...">
+              <p>BlueCalcite</p>
+            </div>
+          </button>
+        </div>
+        <div id="col4" class="col-lg-2">
+          <button class="btn theme-button Painite">
+            <div class="img2">
+              <img src="./assets/images/Painite.JPG" width="150" height="200" alt="...">
+              <p>Painite</p>
+            </div>
+          </button>
+        </div>
+        <div id="col5" class="col-lg-2">
+          <button class="btn theme-button Quartz">
+            <div class="img3">
+              <img src="./assets/images/Quartz.JPG" width="150" height="200" alt="...">
+              <p>Quartz</p>
+            </div>
+          </button>
+        </div>
+        <div id="col6" class="col-lg-2">
+          <button class="btn theme-button RoseQuartz">
+            <div class="img4">
+              <img src="./assets/images/RoseQuartz.JPG" width="150" height="200" alt="...">
+              <p>RoseQuartz</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Score display  -->
+      <div id="row5" class="row">
+        <div class="col-lg-5">
+          <h4 class="text-left">
+            <strong>Your total score is </strong>
+          </h4>
+        </div>
+      </div>
+
+      <div id="row6" class="card" style="width: 20rem; height:10rem;">
+        <div class="card-body">
+          <div id="yourTotal">
+
+              <div>
+                <h3>Score: </h3>
+                <span id="totalScore"></span>
+              </div>
+            </div>          
+        </div>
+      </div>
+
+      <!-- End of Container class  -->
+      <!-- JQuery -->
+
+
+      <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
+</body>
+</html>

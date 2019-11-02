@@ -1,0 +1,102 @@
+body{
+ background: #dae2b46e;
+} 
+#row1 {
+    padding-left: 0px;
+    margin: 2% 40% 2% 3%;
+    background-color: chocolate;
+    color: white;
+    }
+
+#row2 {
+    padding-left: 2px;
+    margin: 2% 40% 2% 3%;
+    background-color:rgb(230, 226, 193);
+    color: green;
+    text-align:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+#row3 {
+    padding-left: 2px;
+    margin: 2% 20% 2% 3%;
+    width: 50%;
+    }
+
+#card1 {
+    padding-left: 2px;
+    margin: 2% 35% 2% 0%;
+    background-color: rgb(153, 197, 136);
+    color: rgb(207, 5, 5);
+    }    
+
+#card2 {
+    padding-left: 2px;
+    margin: 2% 25% 2% 15%;    
+    background-color: rgb(68, 220, 240);
+    color: rgb(3, 92, 25);
+    }      
+
+#row4 {
+    padding-left: 2px;
+    margin: 2% 0% 2% 1%;
+    width:90%;
+    }
+    
+#col3 {
+    margin: 0% 0% 2% 0%;   
+    text-align: center;
+    } 
+    
+#col4 {
+    margin: 0% 0% 2% 0%;    
+    text-align: center;
+    }
+
+#col5 {
+    margin: 0% 0% 2% 0%;   
+    text-align: center;
+    }
+
+#col6 {
+    margin: 0% 0% 2% 0%;    
+    text-align: center; 
+    }
+
+.img1 {
+    margin: 0px 1px 1px 1px;
+    font-weight: bold;
+    color: blue;
+}
+
+.img2 {
+    margin: 0px 1px 1px 1px;
+    font-weight: bold;
+    color: rgb(54, 3, 3);
+}
+
+.img3 {
+    margin: 0px 1px 1px 1px;
+    font-weight: bold;
+    color: rgb(241, 24, 24);
+}
+
+.img4 {
+    margin: 0px 1px 1px 1px;
+    font-weight: bold;
+    color:rgb(175, 44, 66);
+}
+
+#row5 {
+    padding-left: 2px;
+    margin: 2% 45% 2% 3%;
+    background-color: rgb(68, 102, 58);
+    color: white;
+    }
+
+#row6 {
+    padding-left: 2px;
+    margin: 2% 30% 2% 3%;
+    background-color: rgb(68, 102, 58);
+    color: white;
+    }
